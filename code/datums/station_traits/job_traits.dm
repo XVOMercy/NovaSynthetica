@@ -80,7 +80,7 @@
 /datum/station_trait/job/cargorilla
 	name = "Cargo Gorilla"
 	button_desc = "Sign up to become the Cargo Gorilla, a peaceful shepherd of boxes."
-	weight = 1
+	weight = 0
 	show_in_report = FALSE // Selective attention test. Did you spot the gorilla?
 	can_roll_antag = CAN_ROLL_NEVER
 	job_to_add = /datum/job/cargo_gorilla
@@ -112,7 +112,7 @@
 /datum/station_trait/job/bridge_assistant
 	name = "Bridge Assistant"
 	button_desc = "Sign up to become the Bridge Assistant and watch over the Bridge."
-	weight = 2
+	weight = 0
 	report_message = "We have installed a Bridge Assistant on your station."
 	show_in_report = TRUE
 	can_roll_antag = CAN_ROLL_PROTECTED
@@ -166,7 +166,7 @@
 /datum/station_trait/job/veteran_advisor
 	name = "Veteran Advisor"
 	button_desc = "Sign up to become a DISABLED but hard boiled Veteran Advisor of Nanotrasen Security Force. Advise HoS and Captain, train Officers, all while fighting your PTSD."
-	weight = 2
+	weight = 0
 	report_message = "Veteran Security Advisor has been assigned to your station to help with Security matters."
 	show_in_report = TRUE
 	can_roll_antag = CAN_ROLL_PROTECTED
@@ -179,7 +179,7 @@
 /datum/station_trait/job/human_ai
 	name = "Human AI"
 	button_desc = "Sign up to become the \"AI\"."
-	weight = 1
+	weight = 0
 	trait_flags = parent_type::trait_flags | STATION_TRAIT_REQUIRES_AI
 	report_message = "Our recent technological advancements in machine Artificial Intelligence has proven futile. In the meantime, we're sending an Intern to help out."
 	show_in_report = TRUE

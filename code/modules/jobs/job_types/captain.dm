@@ -8,7 +8,7 @@
 	faction = FACTION_STATION
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "Nanotrasen officials and Space Law"
+	supervisors = "Synthetica High Command and Synthetica Prime"
 	req_admin_notify = 1
 	minimal_player_age = 14
 	exp_requirements = 180
@@ -60,9 +60,9 @@
 	name = "Captain"
 	jobtype = /datum/job/captain
 
-	id = /obj/item/card/id/advanced/gold
+	id = /obj/item/card/id/advanced/black
 	id_trim = /datum/id_trim/job/captain
-	uniform = /obj/item/clothing/under/rank/captain
+	uniform = /obj/item/clothing/under/rank/captain/nova/utility
 	suit = /obj/item/clothing/suit/armor/vest/capcarapace
 	backpack_contents = list(
 		/obj/item/melee/baton/telescopic = 1,
@@ -73,7 +73,7 @@
 	glasses = /obj/item/clothing/glasses/sunglasses
 	gloves = /obj/item/clothing/gloves/captain
 	head = /obj/item/clothing/head/hats/caphat
-	shoes = /obj/item/clothing/shoes/laceup
+	shoes = /obj/item/clothing/shoes/jackboots
 
 
 	backpack = /obj/item/storage/backpack/captain

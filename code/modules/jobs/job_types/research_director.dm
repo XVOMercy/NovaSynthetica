@@ -1,8 +1,6 @@
 /datum/job/research_director
 	title = JOB_RESEARCH_DIRECTOR
-	description = "Supervise research efforts, ensure Robotics is in working \
-		order, make sure the AI and its Cyborgs aren't rogue, replacing them if \
-		they are."
+	description = "Supervise research efforts, serve and protect the Site Overseer's will, assist Roboticists when needed."
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD
 	department_head = list(JOB_CAPTAIN)
 	head_announce = list("Science")
@@ -55,9 +53,9 @@
 	name = JOB_RESEARCH_DIRECTOR
 	jobtype = /datum/job/research_director
 
-	id = /obj/item/card/id/advanced/silver
+	id = /obj/item/card/id/advanced/black
 	id_trim = /datum/id_trim/job/research_director
-	uniform = /obj/item/clothing/under/rank/rnd/research_director/turtleneck
+	uniform = /obj/item/clothing/under/rank/captain/nova/utility
 	suit = /obj/item/clothing/suit/jacket/research_director
 	backpack_contents = list(
 		/obj/item/melee/baton/telescopic = 1,

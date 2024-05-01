@@ -1,11 +1,11 @@
 /datum/job/cyborg
 	title = JOB_CYBORG
-	description = "Assist the crew, follow your laws, obey your AI."
+	description = "Protect Synthetica. Assist the Overseer."
 	auto_deadmin_role_flags = DEADMIN_POSITION_SILICON
 	faction = FACTION_STATION
-	total_positions = 3	// NOVA EDIT: Original value (0)
-	spawn_positions = 3
-	supervisors = "your laws and the AI" //Nodrak
+	total_positions = 5	// NOVA EDIT: Original value (0)
+	spawn_positions = 5
+	supervisors = "the Overseer" //Nodrak
 	spawn_type = /mob/living/silicon/robot
 	minimal_player_age = 21
 	exp_requirements = 120

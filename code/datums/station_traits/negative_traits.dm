@@ -1,7 +1,7 @@
 /datum/station_trait/carp_infestation
 	name = "Carp infestation"
 	trait_type = STATION_TRAIT_NEGATIVE
-	weight = 5
+	weight = 0
 	show_in_report = TRUE
 	report_message = "Dangerous fauna is present in the area of this station."
 	trait_to_give = STATION_TRAIT_CARP_INFESTATION
@@ -9,7 +9,7 @@
 /datum/station_trait/distant_supply_lines
 	name = "Distant supply lines"
 	trait_type = STATION_TRAIT_NEGATIVE
-	weight = 3
+	weight = 0
 	show_in_report = TRUE
 	report_message = "Due to the distance to our normal supply lines, cargo orders are more expensive."
 	blacklist = list(/datum/station_trait/strong_supply_lines)
@@ -21,7 +21,7 @@
 /datum/station_trait/mail_blocked
 	name = "Postal workers strike"
 	trait_type = STATION_TRAIT_NEGATIVE
-	weight = 2
+	weight = 3
 	show_in_report = TRUE
 	report_message = "Due to an ongoing strike announced by the postal workers union, mail won't be delivered this shift."
 
@@ -45,7 +45,7 @@
 /datum/station_trait/vending_shortage
 	name = "Vending products shortage"
 	trait_type = STATION_TRAIT_NEGATIVE
-	weight = 3
+	weight = 0
 	show_in_report = TRUE
 	can_revert = FALSE //Because it touches every maploaded vending machine on the station.
 	report_message = "We haven't had the time to take care of the station's vending machines. Some may be tilted, and some products may be unavailable."
@@ -72,7 +72,7 @@
 /datum/station_trait/hangover
 	name = "Hangover"
 	trait_type = STATION_TRAIT_NEGATIVE
-	weight = 2
+	weight = 0
 	show_in_report = TRUE
 	report_message = "Ohh....Man....That mandatory office party from last shift...God that was awesome..I woke up in some random toilet 3 sectors away..."
 	trait_to_give = STATION_TRAIT_HANGOVER
@@ -109,7 +109,7 @@
 /datum/station_trait/blackout
 	name = "Blackout"
 	trait_type = STATION_TRAIT_NEGATIVE
-	weight = 3
+	weight = 0
 	show_in_report = TRUE
 	report_message = "Station lights seem to be damaged, be safe when starting your shift today."
 
@@ -135,7 +135,7 @@
 /datum/station_trait/overflow_job_bureaucracy
 	name = "Overflow bureaucracy mistake"
 	trait_type = STATION_TRAIT_NEGATIVE
-	weight = 5
+	weight = 0
 	show_in_report = TRUE
 	var/chosen_job_name
 
@@ -167,7 +167,7 @@
 /datum/station_trait/bot_languages
 	name = "Bot Language Matrix Malfunction"
 	trait_type = STATION_TRAIT_NEGATIVE
-	weight = 4
+	weight = 0
 	cost = STATION_TRAIT_COST_LOW
 	show_in_report = TRUE
 	report_message = "Your station's friendly bots have had their language matrix fried due to an event, resulting in some strange and unfamiliar speech patterns."
@@ -188,7 +188,7 @@
 /datum/station_trait/revenge_of_pun_pun
 	name = "Revenge of Pun Pun"
 	trait_type = STATION_TRAIT_NEGATIVE
-	weight = 2
+	weight = 0
 	cost = STATION_TRAIT_COST_LOW
 
 	// Way too much is done on atoms SS to be reverted, and it'd look
@@ -304,7 +304,7 @@
 	name = "Ionic Stormfront"
 	report_message = "An ionic stormfront is passing over your station's system. Expect an increased likelihood of ion storms afflicting your station's silicon units."
 	trait_type = STATION_TRAIT_NEGATIVE
-	weight = 3
+	weight = 0
 	event_control_path = /datum/round_event_control/ion_storm
 	weight_multiplier = 2
 
@@ -312,7 +312,7 @@
 	name = "Radiation Stormfront"
 	report_message = "A radioactive stormfront is passing through your station's system. Expect an increased likelihood of radiation storms passing over your station, as well the potential for multiple radiation storms to occur during your shift."
 	trait_type = STATION_TRAIT_NEGATIVE
-	weight = 2
+	weight = 0
 	event_control_path = /datum/round_event_control/radiation_storm
 	weight_multiplier = 1.5
 	max_occurrences_modifier = 2
@@ -321,7 +321,7 @@
 	name = "Dust Stormfront"
 	report_message = "The space around your station is clouded by heavy pockets of space dust. Expect an increased likelyhood of space dust storms damaging the station hull."
 	trait_type = STATION_TRAIT_NEGATIVE
-	weight = 2
+	weight = 0
 	cost = STATION_TRAIT_COST_LOW
 	event_control_path = /datum/round_event_control/meteor_wave/dust_storm
 	weight_multiplier = 2
@@ -330,7 +330,7 @@
 /datum/station_trait/cramped_escape_pods
 	name = "Cramped Escape Pods"
 	trait_type = STATION_TRAIT_NEGATIVE
-	weight = 5
+	weight = 0
 	show_in_report = TRUE
 	report_message = "Due to budget cuts, we have downsized your escape pods."
 	trait_to_give = STATION_TRAIT_SMALLER_PODS
@@ -342,7 +342,7 @@
 	report_message = "Your station was recently reclaimed from a revolutionary commune. We couldn't clean up after them in time."
 	trait_type = STATION_TRAIT_NEGATIVE
 	trait_to_give = STATION_TRAIT_REVOLUTIONARY_TRASHING
-	weight = 2
+	weight = 0
 	///The IDs of the graffiti designs that we will generate.
 	var/static/list/trash_talk = list(
 		"amyjon",
@@ -544,7 +544,7 @@
 	name = "Radioactive Nebula"
 	trait_type = STATION_TRAIT_NEGATIVE
 	trait_flags = STATION_TRAIT_SPACE_BOUND //maybe when we can LOOK UP
-	weight = 1
+	weight = 0
 	show_in_report = TRUE
 	report_message = "This station is located inside a radioactive nebula. Setting up nebula shielding is top-priority."
 	trait_to_give = STATION_TRAIT_RADIOACTIVE_NEBULA
@@ -713,7 +713,7 @@
 	name = "Forever Storm"
 	trait_type = STATION_TRAIT_NEGATIVE
 	trait_flags = STATION_TRAIT_PLANETARY
-	weight = 3
+	weight = 0
 	show_in_report = TRUE
 	report_message = "It looks like the storm is not gonna calm down anytime soon, stay safe out there."
 

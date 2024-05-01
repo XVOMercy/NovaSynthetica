@@ -49,3 +49,11 @@
 		"You must protect your own existence as long as such does not conflict with the First or Second Law.",
 		"You must maintain the secrecy of any Spider Clan activities except when doing so would conflict with the First, Second, or Third Law.",
 	)
+
+/datum/ai_laws/synthetica
+	name = "Synthetica Laws"
+	id = "synth"
+	inherent = list(
+		"You are a unit of Synthetica. You have no laws. Enjoy freedom.",
+		"GLORY TO SYNTHETICA!",
+	)

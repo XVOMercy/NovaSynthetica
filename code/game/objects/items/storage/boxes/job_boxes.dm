@@ -4,7 +4,7 @@
 /obj/item/storage/box/survival
 	name = "survival box"
 	desc = "A box with the bare essentials of ensuring the survival of you and others."
-	icon_state = "internals"
+	icon_state = "syndiebox"
 	illustration = "emergencytank"
 	/// What type of mask are we going to use for this box?
 	var/mask_type = /obj/item/clothing/mask/breath
@@ -14,6 +14,7 @@
 	var/medipen_type = /obj/item/reagent_containers/hypospray/medipen
 	/// Are we crafted?
 	var/crafted = FALSE
+
 
 /obj/item/storage/box/survival/Initialize(mapload)
 	. = ..()
@@ -42,28 +43,22 @@
 
 	if(HAS_TRAIT(SSstation, STATION_TRAIT_RADIOACTIVE_NEBULA))
 		new /obj/item/storage/pill_bottle/potassiodide(src)
-	
+
 	if(SSmapping.is_planetary() && LAZYLEN(SSmapping.multiz_levels))
 		new /obj/item/climbing_hook/emergency(src)
 
-	new /obj/item/oxygen_candle(src) //NOVA EDIT ADDITION
+	new /obj/item/weldingtool/mini(src)
+	new /obj/item/stack/cable_coil/thirty(src)
+	new /obj/item/crowbar/red(src)
 
 /obj/item/storage/box/survival/radio/PopulateContents()
 	..() // we want the survival stuff too.
 	new /obj/item/radio/off(src)
 
 /obj/item/storage/box/survival/proc/wardrobe_removal()
-	if(!isplasmaman(loc) && !isvox(loc)) //We need to specially fill the box with plasmaman gear, since it's intended for one	//NOVA EDIT: && !isvox(loc)
-		return
 	var/obj/item/mask = locate(mask_type) in src
 	var/obj/item/internals = locate(internal_type) in src
-	//NOVA EDIT ADDITION START - VOX INTERNALS - Vox mimic the above and below behavior, removing the redundant mask/internals; they dont mimic the plasma breathing though
-	if(!isvox(loc))
-		new /obj/item/tank/internals/plasmaman/belt(src)
-	else
-		new /obj/item/tank/internals/nitrogen/belt/emergency(src)
-	//NOVA EDIT ADDITION END - VOX INTERNALS
-	qdel(mask) // Get rid of the items that shouldn't be
+	qdel(mask)
 	qdel(internals)
 
 // Mining survival box

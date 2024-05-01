@@ -1,7 +1,6 @@
 /datum/job/chief_engineer
 	title = JOB_CHIEF_ENGINEER
-	description = "Coordinate engineering, ensure equipment doesn't get stolen, \
-		make sure the Supermatter doesn't blow up, maintain telecommunications."
+	description = "Oversee the Technicians, manage power issues, represent Synthetica's engineering projects.."
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD
 	department_head = list(JOB_CAPTAIN)
 	head_announce = list("Engineering")
@@ -61,9 +60,9 @@
 	name = "Chief Engineer"
 	jobtype = /datum/job/chief_engineer
 
-	id = /obj/item/card/id/advanced/silver
+	id = /obj/item/card/id/advanced/black
 	id_trim = /datum/id_trim/job/chief_engineer
-	uniform = /obj/item/clothing/under/rank/engineering/chief_engineer
+	uniform = /obj/item/clothing/under/rank/captain/nova/utility
 	backpack_contents = list(
 		/obj/item/melee/baton/telescopic = 1,
 		/obj/item/construction/rcd/ce = 1,

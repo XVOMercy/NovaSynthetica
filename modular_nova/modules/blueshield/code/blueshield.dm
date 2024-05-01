@@ -1,12 +1,12 @@
 /datum/job/blueshield
 	title = JOB_BLUESHIELD
-	description = "Protect heads of staff, get your fancy gun stolen, cry as the captain touches the supermatter."
+	description = "Protect Synthetica Prime and the other high-ranking members of Synthetica. Ensure their health and protection. GLORY TO SYNTHETICA!"
 	auto_deadmin_role_flags = DEADMIN_POSITION_SECURITY
 	department_head = list(JOB_NT_REP)
 	faction = FACTION_STATION
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "Central Command and the Nanotrasen Consultant"
+	supervisors = "Synthetica"
 	minimal_player_age = 7
 	exp_requirements = 2400
 	exp_required_type = EXP_TYPE_CREW
@@ -48,7 +48,7 @@
 	uniform = /obj/item/clothing/under/rank/blueshield
 	suit = /obj/item/clothing/suit/armor/vest/blueshield/jacket
 	gloves = /obj/item/clothing/gloves/tackler/security
-	id = /obj/item/card/id/advanced/centcom
+	id = /obj/item/card/id/advanced/black
 	shoes = /obj/item/clothing/shoes/jackboots
 	ears = /obj/item/radio/headset/headset_bs/alt
 	glasses = /obj/item/clothing/glasses/hud/security/sunglasses

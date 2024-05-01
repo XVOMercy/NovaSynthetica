@@ -10,7 +10,7 @@
 /datum/round_event_control/sandstorm
 	name = "Sandstorm: Directional"
 	typepath = /datum/round_event/sandstorm
-	max_occurrences = 3
+	max_occurrences = 0
 	min_players = 35
 	earliest_start = 35 MINUTES
 	category = EVENT_CATEGORY_SPACE

@@ -8,6 +8,7 @@
 	category = EVENT_CATEGORY_ENGINEERING
 	min_wizard_trigger_potency = 3
 	max_wizard_trigger_potency = 7
+	max_occurrences = 0
 
 /datum/round_event/radiation_leak
 	start_when = 1 // 2 seconds in

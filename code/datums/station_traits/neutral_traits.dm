@@ -104,7 +104,7 @@
 /datum/station_trait/glitched_pdas
 	name = "PDA glitch"
 	trait_type = STATION_TRAIT_NEUTRAL
-	weight = 5
+	weight = 0
 	show_in_report = TRUE
 	cost = STATION_TRAIT_COST_MINIMAL
 	report_message = "Something seems to be wrong with the PDAs issued to you all this shift. Nothing too bad though."
@@ -113,7 +113,7 @@
 /datum/station_trait/announcement_intern
 	name = "Announcement Intern"
 	trait_type = STATION_TRAIT_NEUTRAL
-	weight = 1
+	weight = 0
 	show_in_report = TRUE
 	report_message = "Please be nice to him."
 	blacklist = list(/datum/station_trait/announcement_medbot, /datum/station_trait/birthday)
@@ -125,7 +125,7 @@
 /datum/station_trait/announcement_medbot
 	name = "Announcement \"System\""
 	trait_type = STATION_TRAIT_NEUTRAL
-	weight = 1
+	weight = 0
 	show_in_report = TRUE
 	report_message = "Our announcement system is under scheduled maintanance at the moment. Thankfully, we have a backup."
 	blacklist = list(/datum/station_trait/announcement_intern, /datum/station_trait/birthday)
@@ -152,7 +152,7 @@
 /datum/station_trait/birthday
 	name = "Employee Birthday"
 	trait_type = STATION_TRAIT_NEUTRAL
-	weight = 2
+	weight = 0
 	show_in_report = TRUE
 	report_message = "We here at Nanotrasen would all like to wish Employee Name a very happy birthday"
 	trait_to_give = STATION_TRAIT_BIRTHDAY
@@ -283,7 +283,7 @@
 /datum/station_trait/scarves
 	name = "Scarves"
 	trait_type = STATION_TRAIT_NEUTRAL
-	weight = 5
+	weight = 0
 	cost = STATION_TRAIT_COST_MINIMAL
 	show_in_report = TRUE
 	var/list/scarves
@@ -317,7 +317,7 @@
 	name = "Wallets!"
 	trait_type = STATION_TRAIT_NEUTRAL
 	show_in_report = TRUE
-	weight = 5
+	weight = 0
 	cost = STATION_TRAIT_COST_MINIMAL
 	report_message = "It has become temporarily fashionable to use a wallet, so everyone on the station has been issued one."
 
@@ -367,7 +367,7 @@
 	name = "Closet Anomaly"
 	trait_type = STATION_TRAIT_NEUTRAL
 	show_in_report = TRUE
-	weight = 1
+	weight = 0
 	report_message = "We've reports of high amount of trace eigenstasium on your station. Ensure that your closets are working correctly."
 
 /datum/station_trait/linked_closets/on_round_start()
@@ -440,7 +440,7 @@
 	name = "The Great Skub Contention"
 	trait_type = STATION_TRAIT_NEUTRAL
 	show_in_report = FALSE
-	weight = 2
+	weight = 0
 	sign_up_button = TRUE
 	/// List of people signed up to be either pro_skub or anti_skub
 	var/list/skubbers = list()

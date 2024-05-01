@@ -1,10 +1,10 @@
 /datum/job/roboticist
 	title = JOB_ROBOTICIST
-	description = "Build and repair the AI and cyborgs, create mechs."
+	description = "Conduct research, act as a medic for the Synthetics on-board, construct silicon life, the heart of Synthetica. Glory to Synthetica!"
 	department_head = list(JOB_RESEARCH_DIRECTOR)
 	faction = FACTION_STATION
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 5
+	spawn_positions = 5
 	supervisors = SUPERVISOR_RD
 	exp_requirements = 60
 	exp_required_type = EXP_TYPE_CREW
@@ -43,7 +43,7 @@
 	jobtype = /datum/job/roboticist
 
 	id_trim = /datum/id_trim/job/roboticist
-	uniform = /obj/item/clothing/under/rank/rnd/roboticist
+	uniform = /obj/item/clothing/under/rank/rnd/scientist/nova/utility
 	suit = /obj/item/clothing/suit/toggle/labcoat/roboticist
 	belt = /obj/item/storage/belt/utility/full
 	ears = /obj/item/radio/headset/headset_sci
