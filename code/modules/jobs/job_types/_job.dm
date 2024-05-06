@@ -346,16 +346,16 @@
 	id = /obj/item/card/id/advanced/black
 	ears = /obj/item/radio/headset
 	belt = /obj/item/modular_computer/pda
-	back = /obj/item/storage/backpack
-	shoes = /obj/item/clothing/shoes/jackboots
+	back = /obj/item/storage/backpack/industrial/frontier_colonist
+	shoes = /obj/item/clothing/shoes/jackboots/frontier_colonist
 	box = /obj/item/storage/box/survival
 
 	preload = TRUE // These are used by the prefs ui, and also just kinda could use the extra help at roundstart
 
-	var/backpack = /obj/item/storage/backpack
-	var/satchel = /obj/item/storage/backpack/satchel
+	var/backpack = /obj/item/storage/backpack/industrial/frontier_colonist
+	var/satchel = /obj/item/storage/backpack/industrial/frontier_colonist/satchel
 	var/duffelbag = /obj/item/storage/backpack/duffelbag
-	var/messenger = /obj/item/storage/backpack/messenger
+	var/messenger = /obj/item/storage/backpack/industrial/frontier_colonist/messenger
 
 	var/pda_slot = ITEM_SLOT_BELT
 
@@ -363,15 +363,15 @@
 	if(ispath(back, /obj/item/storage/backpack))
 		switch(H.backpack)
 			if(GBACKPACK)
-				back = /obj/item/storage/backpack //Grey backpack
+				back = /obj/item/storage/backpack/industrial/frontier_colonist //Grey backpack
 			if(GSATCHEL)
-				back = /obj/item/storage/backpack/satchel //Grey satchel
+				back = /obj/item/storage/backpack/industrial/frontier_colonist/satchel //Grey satchel
 			if(GDUFFELBAG)
 				back = /obj/item/storage/backpack/duffelbag //Grey Duffel bag
 			if(LSATCHEL)
 				back = /obj/item/storage/backpack/satchel/leather //Leather Satchel
 			if(GMESSENGER)
-				back = /obj/item/storage/backpack/messenger //Grey messenger bag
+				back = /obj/item/storage/backpack/industrial/frontier_colonist/messenger //Grey messenger bag
 			if(DSATCHEL)
 				back = satchel //Department satchel
 			if(DMESSENGER)

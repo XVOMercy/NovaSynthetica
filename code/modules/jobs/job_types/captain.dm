@@ -73,7 +73,7 @@
 	glasses = /obj/item/clothing/glasses/sunglasses
 	gloves = /obj/item/clothing/gloves/captain
 	head = /obj/item/clothing/head/hats/caphat
-	shoes = /obj/item/clothing/shoes/jackboots
+	shoes = /obj/item/clothing/shoes/jackboots/frontier_colonist
 
 
 	backpack = /obj/item/storage/backpack/captain

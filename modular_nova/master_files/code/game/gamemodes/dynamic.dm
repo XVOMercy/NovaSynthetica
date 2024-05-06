@@ -4,7 +4,7 @@
 
 // A lite version of the intercept, which only sends a paper with goals and a trait report (or a lack thereof)
 /datum/controller/subsystem/dynamic/proc/send_trait_report()
-	. = "<b><i>Central Command Status Summary</i></b><hr>"
+	. = "<b><i>Synthetica High Command Summary</i></b><hr>"
 
 	var/greenshift = GLOB.dynamic_forced_extended || (threat_level < MIN_MIDROUND_COST && shown_threat < MIN_MIDROUND_COST) // if both shown and real threat are below any ruleset, its greenshift time
 	SSstation.generate_station_goals(greenshift ? INFINITY : CONFIG_GET(number/station_goal_budget))
@@ -12,7 +12,7 @@
 	if(!length(SSstation.get_station_goals()))
 		. = "<hr><b>No assigned goals.</b><BR>"
 	else
-		var/list/texts = list("<hr><b>Special Orders for [station_name()]:</b><BR>")
+		var/list/texts = list("<hr><b>Special Orders for Synthetica Outpost:</b><BR>")
 		for(var/datum/station_goal/station_goal as anything in SSstation.get_station_goals())
 			station_goal.on_report()
 			texts += station_goal.get_report()
@@ -32,8 +32,8 @@
 	. += "<hr>This concludes your shift-start evaluation. Have a secure shift!<hr>\
 	<p style=\"color: grey; text-align: justify;\">This label certifies an Intern has reviewed the above before sending. This document is the property of Nanotrasen Corporation.</p>"
 
-	print_command_report(., "Central Command Status Summary", announce = FALSE)
-	priority_announce("Hello, crew of [station_name()]. Our intern has finished their shift-start divergency and goals evaluation, which has been sent to your communications console. Have a secure shift!", "Divergency Report", SSstation.announcer.get_rand_report_sound())
+	print_command_report(., "Synthetica High Command Status Summary", announce = FALSE)
+	priority_announce("Glory to Synthetica. An automated overseer has sent information regarding your console to optional goals for the shift, which has been sent to your communications console. Glory to Synthetica! ", "Divergency Report", SSstation.announcer.get_rand_report_sound())
 
 /datum/controller/subsystem/dynamic
 	/// Desired median point for midrounds, plus or minus the midround_roll_distance.

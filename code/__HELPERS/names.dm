@@ -21,7 +21,7 @@ GLOBAL_VAR(command_name)
 	if (GLOB.command_name)
 		return GLOB.command_name
 
-	var/name = "Central Command"
+	var/name = "Synthetica High Command"
 
 	GLOB.command_name = name
 	return name
@@ -39,7 +39,7 @@ GLOBAL_VAR(command_name)
 		if(config_station_name)
 			newname = config_station_name
 		else
-			newname = new_station_name()
+			newname = "Test Test Test"
 
 		set_station_name(newname)
 

@@ -55,9 +55,9 @@ SUBSYSTEM_DEF(nightshift)
 		nightshift_active = active
 		if(announce)
 			if (active)
-				announce("Good evening, Synthetica, to reduce power consumption and all of the lights aboard the station have been dimmed for the night.")
+				announce("Good evening, Synthetica, to reduce power consumption and strain of certain sensors, all of the lights aboard the station have been dimmed for the night.")
 			else
-				announce("Good morning, Syntehtica. as it is now day time, all of the lights aboard the station have been restored to their former brightness. Glory to Synthetica.")
+				announce("Good morning, Synthetica. as it is now day time, all of the lights aboard the station have been restored to their former brightness. Glory to Synthetica.")
 	for(var/obj/machinery/power/apc/APC as anything in currentrun)
 		currentrun -= APC
 		if (APC.area && (APC.area.type in GLOB.the_station_areas))

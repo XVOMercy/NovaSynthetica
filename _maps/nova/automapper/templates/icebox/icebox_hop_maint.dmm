@@ -3,7 +3,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron,
+/turf/open/floor/iron/dark,
 /area/station/hallway/primary/central)
 "k" = (
 /obj/structure/ladder,
@@ -12,7 +12,7 @@
 "o" = (
 /obj/effect/turf_decal/tile/blue,
 /obj/machinery/firealarm/directional/east,
-/turf/open/floor/iron,
+/turf/open/floor/iron/dark,
 /area/station/hallway/primary/central)
 "r" = (
 /obj/machinery/door/airlock/maintenance,
@@ -30,7 +30,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/central/greater)
 "E" = (
-/turf/closed/wall/r_wall,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/station/maintenance/central/greater)
 "I" = (
 /obj/effect/landmark/blobstart,

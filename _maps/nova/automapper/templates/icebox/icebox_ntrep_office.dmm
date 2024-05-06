@@ -12,10 +12,10 @@
 /obj/item/stamp{
 	pixel_x = -6
 	},
-/turf/open/floor/carpet/executive,
+/turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/nt_rep)
 "an" = (
-/turf/closed/wall/r_wall,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/station/command/heads_quarters/nt_rep)
 "aB" = (
 /obj/structure/chair/sofa/bench/left{
@@ -23,18 +23,18 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/landmark/start/assistant,
-/turf/open/floor/iron,
+/turf/open/floor/iron/dark,
 /area/station/hallway/primary/central)
 "aU" = (
 /turf/open/floor/plating,
 /area/station/maintenance/central/greater)
 "bp" = (
 /obj/machinery/light/directional/south,
-/turf/open/floor/iron,
+/turf/open/floor/iron/dark,
 /area/station/hallway/primary/central)
 "bG" = (
 /obj/structure/sign/warning,
-/turf/closed/wall/r_wall,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/mine/storage)
 "bK" = (
 /obj/effect/mapping_helpers/broken_floor,
@@ -74,7 +74,7 @@
 /obj/item/kirbyplants/random,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/airalarm/directional/north,
-/turf/open/floor/iron,
+/turf/open/floor/iron/dark,
 /area/station/hallway/primary/central)
 "fC" = (
 /obj/structure/rack,
@@ -90,7 +90,7 @@
 /area/icemoon/underground/explored)
 "fV" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/iron,
+/turf/open/floor/iron/dark,
 /area/station/hallway/primary/central)
 "he" = (
 /obj/effect/decal/remains/human,
@@ -153,7 +153,7 @@
 /turf/open/floor/iron/dark,
 /area/mine/storage)
 "lu" = (
-/turf/closed/wall,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/station/hallway/primary/central)
 "lD" = (
 /obj/effect/decal/cleanable/dirt,
@@ -172,17 +172,17 @@
 /turf/open/floor/plating,
 /area/station/maintenance/central/greater)
 "mc" = (
-/turf/open/floor/iron,
+/turf/open/floor/iron/dark,
 /area/station/hallway/primary/central)
 "ms" = (
-/obj/effect/spawner/structure/window/reinforced,
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
 /turf/open/floor/plating,
 /area/station/hallway/primary/central)
 "mE" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron,
+/turf/open/floor/iron/dark,
 /area/station/hallway/primary/central)
 "nq" = (
 /obj/effect/decal/cleanable/dirt,
@@ -200,7 +200,7 @@
 /area/mine/storage)
 "pK" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron,
+/turf/open/floor/iron/dark,
 /area/station/hallway/primary/central)
 "qb" = (
 /obj/effect/turf_decal/siding/wood{
@@ -245,11 +245,11 @@
 /obj/structure/chair/office{
 	dir = 8
 	},
-/turf/open/floor/carpet/executive,
+/turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/nt_rep)
 "tw" = (
 /obj/structure/filingcabinet/employment,
-/turf/open/floor/carpet/executive,
+/turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/nt_rep)
 "tD" = (
 /obj/machinery/modular_computer/preset/command{
@@ -265,10 +265,10 @@
 	name = "Wildlife Observation Shutters Control";
 	pixel_y = -8
 	},
-/turf/open/floor/carpet/executive,
+/turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/nt_rep)
 "uu" = (
-/obj/effect/spawner/structure/window/reinforced,
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
 /turf/open/floor/plating,
 /area/station/maintenance/central/greater)
 "uy" = (
@@ -283,14 +283,14 @@
 /turf/open/floor/plating,
 /area/station/maintenance/central/greater)
 "uK" = (
-/turf/closed/wall,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/station/maintenance/central/greater)
 "uN" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
 	},
 /obj/machinery/status_display/ai/directional/east,
-/turf/open/floor/iron,
+/turf/open/floor/iron/dark,
 /area/station/hallway/primary/central)
 "uT" = (
 /obj/effect/spawner/structure/window/hollow/reinforced/middle{
@@ -304,13 +304,13 @@
 	pixel_y = 4
 	},
 /obj/item/pen/fountain,
-/turf/open/floor/carpet/executive,
+/turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/nt_rep)
 "vS" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
 	},
-/turf/open/floor/iron,
+/turf/open/floor/iron/dark,
 /area/station/hallway/primary/central)
 "vZ" = (
 /obj/structure/ore_box,
@@ -330,14 +330,14 @@
 /obj/machinery/camera/directional/south{
 	c_tag = "NT Consultant's Hallway"
 	},
-/turf/open/floor/iron,
+/turf/open/floor/iron/dark,
 /area/station/hallway/primary/central)
 "yu" = (
 /obj/structure/closet/secure_closet/nanotrasen_consultant,
 /obj/item/assembly/flash/handheld,
 /obj/machinery/light/directional/west,
 /obj/item/radio/intercom/directional/west,
-/turf/open/floor/carpet/executive,
+/turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/nt_rep)
 "zD" = (
 /obj/structure/table/wood,
@@ -356,7 +356,7 @@
 /area/station/command/heads_quarters/nt_rep)
 "zQ" = (
 /obj/effect/landmark/start/nanotrasen_consultant,
-/turf/open/floor/carpet/executive,
+/turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/nt_rep)
 "Ag" = (
 /obj/effect/spawner/random/trash/hobo_squat,
@@ -384,7 +384,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
-/turf/open/floor/iron,
+/turf/open/floor/iron/dark,
 /area/station/hallway/primary/central)
 "Cz" = (
 /obj/machinery/space_heater,
@@ -412,7 +412,7 @@
 	dir = 4
 	},
 /obj/effect/landmark/start/nanotrasen_consultant,
-/turf/open/floor/carpet/executive,
+/turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/nt_rep)
 "Fk" = (
 /turf/open/genturf/blue,
@@ -424,7 +424,7 @@
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/nt_rep)
 "Hy" = (
-/obj/effect/spawner/structure/window/reinforced,
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
 /obj/machinery/door/poddoor/preopen{
 	id = "nt_rep_priv";
 	name = "Privacy Shutter"
@@ -491,7 +491,7 @@
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/nt_rep)
 "Lj" = (
-/turf/closed/wall/r_wall,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/mine/storage)
 "Lv" = (
 /obj/structure/chair/sofa/bench/right{
@@ -499,13 +499,13 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/landmark/start/assistant,
-/turf/open/floor/iron,
+/turf/open/floor/iron/dark,
 /area/station/hallway/primary/central)
 "Md" = (
 /obj/structure/stairs/north{
 	dir = 2
 	},
-/turf/open/floor/iron,
+/turf/open/floor/iron/dark,
 /area/station/hallway/primary/central)
 "MO" = (
 /obj/item/kirbyplants/random,
@@ -568,7 +568,7 @@
 "Qm" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /obj/machinery/light/directional/east,
-/turf/open/floor/iron,
+/turf/open/floor/iron/dark,
 /area/station/hallway/primary/central)
 "Qs" = (
 /obj/structure/closet/emcloset,
@@ -602,7 +602,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/landmark/start/assistant,
-/turf/open/floor/iron,
+/turf/open/floor/iron/dark,
 /area/station/hallway/primary/central)
 "RE" = (
 /obj/structure/ladder,
@@ -614,10 +614,10 @@
 /area/station/command/heads_quarters/nt_rep)
 "RJ" = (
 /obj/effect/landmark/start/assistant,
-/turf/open/floor/iron,
+/turf/open/floor/iron/dark,
 /area/station/hallway/primary/central)
 "RS" = (
-/turf/open/floor/carpet/executive,
+/turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/nt_rep)
 "ST" = (
 /obj/effect/decal/cleanable/dirt,
@@ -630,7 +630,7 @@
 /turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/nt_rep)
 "Uj" = (
-/obj/effect/spawner/structure/window/reinforced,
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
 /obj/machinery/door/poddoor/preopen{
 	id = "nt_rep_wild";
 	name = "Wildlife Observation Shutters"
