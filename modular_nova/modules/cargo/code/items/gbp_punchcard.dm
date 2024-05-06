@@ -123,53 +123,6 @@
 	req_components = list(
 		/datum/stock_part/servo = 1)
 
-
-/datum/outfit/job/rd/pre_equip(mob/living/carbon/human/human, visualsOnly)
-	. = ..()
-	backpack_contents += list(
-		/obj/item/gbp_puncher = 1
-	)
-
-/datum/outfit/job/hos/pre_equip(mob/living/carbon/human/human, visualsOnly)
-	. = ..()
-	backpack_contents += list(
-		/obj/item/gbp_puncher = 1,
-	)
-
-/datum/outfit/job/hop/pre_equip(mob/living/carbon/human/human, visualsOnly)
-	. = ..()
-	backpack_contents += list(
-		/obj/item/gbp_puncher = 1,
-	)
-
-/datum/outfit/job/ce/pre_equip(mob/living/carbon/human/human, visualsOnly)
-	. = ..()
-	backpack_contents += list(
-		/obj/item/gbp_puncher = 1,
-	)
-
-/datum/outfit/job/cmo/pre_equip(mob/living/carbon/human/human, visualsOnly)
-	. = ..()
-	backpack_contents += list(
-		/obj/item/gbp_puncher = 1,
-	)
-
-/datum/outfit/job/captain/pre_equip(mob/living/carbon/human/human, visualsOnly)
-	. = ..()
-	backpack_contents += list(
-		/obj/item/gbp_puncher = 1,
-	)
-
-/datum/outfit/job/quartermaster/pre_equip(mob/living/carbon/human/human, visualsOnly)
-	. = ..()
-	backpack_contents += list(
-		/obj/item/gbp_puncher = 1,
-	)
-
-/datum/outfit/job/assistant/pre_equip(mob/living/carbon/human/human, visualsOnly)
-	. = ..()
-	backpack_contents += list(/obj/item/gbp_punchcard/starting)
-
 /datum/design/board/gbp_machine
 	name = "Good Assistant Points Redemption Machine Board"
 	desc = "The circuit board for a Good Assistant Points Redemption Machine."
