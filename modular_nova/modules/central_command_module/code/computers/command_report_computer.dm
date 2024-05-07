@@ -11,7 +11,7 @@
 	light_color = LIGHT_COLOR_BLUE
 
 	/// The name of central command that will accompany our report
-	var/command_name = "Nanotrasen Fleet Command Update"
+	var/command_name = "Synthetica High Command Update"
 	/// The actual contents of the report we're going to send.
 	var/command_report_content
 	/// The title of our report, if anything.
@@ -19,7 +19,7 @@
 	/// Whether the report's contents are announced.
 	var/announce_contents = TRUE
 	/// Custom report sound.
-	var/report_sound = null
+	var/report_sound = "announcer_aimalf"
 	/// The error we encountered while trying to send a report.
 	var/error = ""
 
@@ -70,8 +70,7 @@
 	if (!COOLDOWN_FINISHED(src, announcement_cooldown))
 		return
 
-	if(!report_sound)
-		report_sound = SSstation.announcer.get_rand_report_sound()
+	report_sound = "announcer_aimalf"
 
 	if(announce_contents)
 		priority_announce(command_report_content, command_report_title, report_sound, sender_override = command_name, has_important_message = TRUE)
