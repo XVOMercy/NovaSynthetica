@@ -48,9 +48,9 @@
 	glasses = /obj/item/clothing/glasses/sunglasses
 	ears = /obj/item/radio/headset/heads/nanotrasen_consultant
 	gloves = /obj/item/clothing/gloves/combat
-	uniform =  /obj/item/clothing/under/rank/nanotrasen_consultant
-	suit = /obj/item/clothing/suit/armor/vest/nanotrasen_consultant
-	shoes = /obj/item/clothing/shoes/jackboots
+	uniform =  /obj/item/clothing/under/rank/captain/nova/utility
+	suit = /obj/item/clothing/suit/armor/hos/trenchcoat
+	shoes = /obj/item/clothing/shoes/jackboots/frontier_colonist
 	head = /obj/item/clothing/head/nanotrasen_consultant
 	backpack_contents = list(
 		/obj/item/melee/baton/telescopic = 1,
@@ -59,13 +59,12 @@
 
 	skillchips = list(/obj/item/skillchip/disk_verifier)
 
-	backpack = /obj/item/storage/backpack
-	satchel = /obj/item/storage/backpack/satchel
+	backpack = /obj/item/storage/backpack/industrial/frontier_colonist
+	satchel = /obj/item/storage/backpack/industrial/frontier_colonist/satchel
 	duffelbag = /obj/item/storage/backpack/duffelbag
-	messenger = /obj/item/storage/backpack/messenger
+	messenger = /obj/item/storage/backpack/industrial/frontier_colonist/messenger
 
 	implants = list(/obj/item/implant/mindshield)
-	accessory = /obj/item/clothing/accessory/medal/gold/nanotrasen_consultant
 
 	chameleon_extras = list(/obj/item/gun/energy/e_gun, /obj/item/stamp/centcom)
 

@@ -198,30 +198,30 @@
 #define JOB_DISPLAY_ORDER_CUSTOMS_AGENT 49 //NOVA EDIT ADDITION
 #define JOB_DISPLAY_ORDER_EXP_CORPS 50 //NOVA EDIT ADDITON
 
-#define DEPARTMENT_UNASSIGNED "No Department"
+#define DEPARTMENT_UNASSIGNED "NULL DEPARTMENT"
 
 #define DEPARTMENT_BITFLAG_SECURITY (1<<0)
-#define DEPARTMENT_SECURITY "Security"
+#define DEPARTMENT_SECURITY "Operatives"
 #define DEPARTMENT_BITFLAG_COMMAND (1<<1)
 #define DEPARTMENT_COMMAND "Command"
 #define DEPARTMENT_BITFLAG_SERVICE (1<<2)
 #define DEPARTMENT_SERVICE "Service"
 #define DEPARTMENT_BITFLAG_CARGO (1<<3)
-#define DEPARTMENT_CARGO "Cargo"
+#define DEPARTMENT_CARGO "Supply (TERMINATED)"
 #define DEPARTMENT_BITFLAG_ENGINEERING (1<<4)
-#define DEPARTMENT_ENGINEERING "Engineering"
+#define DEPARTMENT_ENGINEERING "Technicians"
 #define DEPARTMENT_BITFLAG_SCIENCE (1<<5)
-#define DEPARTMENT_SCIENCE "Science"
+#define DEPARTMENT_SCIENCE "Robotics"
 #define DEPARTMENT_BITFLAG_MEDICAL (1<<6)
-#define DEPARTMENT_MEDICAL "Medical"
+#define DEPARTMENT_MEDICAL "Organic Treatment"
 #define DEPARTMENT_BITFLAG_SILICON (1<<7)
-#define DEPARTMENT_SILICON "Silicon"
+#define DEPARTMENT_SILICON "True Silicon"
 #define DEPARTMENT_BITFLAG_ASSISTANT (1<<8)
 #define DEPARTMENT_ASSISTANT "Assistant"
 #define DEPARTMENT_BITFLAG_CAPTAIN (1<<9)
 #define DEPARTMENT_CAPTAIN "Captain"
 #define DEPARTMENT_BITFLAG_CENTRAL_COMMAND (1<<10) //NOVA EDIT CHANGE
-#define DEPARTMENT_CENTRAL_COMMAND "Central Command" //NOVA EDIT CHANGE
+#define DEPARTMENT_CENTRAL_COMMAND "High Command" //NOVA EDIT CHANGE
 
 DEFINE_BITFIELD(departments_bitflags, list(
 	"SECURITY" = DEPARTMENT_BITFLAG_SECURITY,
@@ -292,12 +292,12 @@ DEFINE_BITFIELD(job_flags, list(
 #define FACTION_STATION "Station"
 
 // Variable macros used to declare who is the supervisor for a given job, announced to the player when they join as any given job.
-#define SUPERVISOR_CAPTAIN "the Captain"
-#define SUPERVISOR_CE "the Chief Engineer"
-#define SUPERVISOR_CMO "the Chief Medical Officer"
+#define SUPERVISOR_CAPTAIN "the Site"
+#define SUPERVISOR_CE "the Chief Technician"
+#define SUPERVISOR_CMO "the "
 #define SUPERVISOR_HOP "the Head of Personnel"
-#define SUPERVISOR_HOS "the Head of Security"
-#define SUPERVISOR_QM "the Quartermaster"
+#define SUPERVISOR_HOS "the Force Leader"
+#define SUPERVISOR_QM "the "
 #define SUPERVISOR_RD "the Research Director"
 
 /// Mind traits that should be shared by every head of staff. has to be this way cause byond lists lol

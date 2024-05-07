@@ -6,7 +6,7 @@
 	faction = FACTION_STATION
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "Synthetica"
+	supervisors = "Synthetica Command"
 	minimal_player_age = 7
 	exp_requirements = 2400
 	exp_required_type = EXP_TYPE_CREW
@@ -45,19 +45,14 @@
 /datum/outfit/job/blueshield
 	name = "Blueshield"
 	jobtype = /datum/job/blueshield
-	uniform = /obj/item/clothing/under/rank/blueshield
-	suit = /obj/item/clothing/suit/armor/vest/blueshield/jacket
-	gloves = /obj/item/clothing/gloves/tackler/security
+	uniform = /obj/item/clothing/under/syndicate/combat
+	suit = /obj/item/clothing/suit/armor/vest/blueshirt
+	gloves = /obj/item/clothing/gloves/tackler/combat/insulated
 	id = /obj/item/card/id/advanced/black
-	shoes = /obj/item/clothing/shoes/jackboots
+	shoes = /obj/item/clothing/shoes/jackboots/frontier_colonist
 	ears = /obj/item/radio/headset/headset_bs/alt
 	glasses = /obj/item/clothing/glasses/hud/security/sunglasses
 	implants = list(/obj/item/implant/mindshield)
-	backpack = /obj/item/storage/backpack/blueshield
-	satchel = /obj/item/storage/backpack/satchel/blueshield
-	duffelbag = /obj/item/storage/backpack/duffelbag/blueshield
-	messenger = /obj/item/storage/backpack/messenger/blueshield
-	head = /obj/item/clothing/head/beret/blueshield
 	box = /obj/item/storage/box/survival/security
 	belt = /obj/item/modular_computer/pda/security
 	l_pocket = /obj/item/sensor_device/blueshield

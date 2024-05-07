@@ -45,9 +45,10 @@
 	id_trim = /datum/id_trim/job/roboticist
 	uniform = /obj/item/clothing/under/rank/rnd/scientist/nova/utility
 	suit = /obj/item/clothing/suit/toggle/labcoat/roboticist
-	belt = /obj/item/storage/belt/utility/full
+	belt = /obj/item/storage/belt/utility/full/synthetica
 	ears = /obj/item/radio/headset/headset_sci
 	l_pocket = /obj/item/modular_computer/pda/roboticist
+	shoes = /obj/item/clothing/shoes/jackboots/frontier_colonist
 
 	pda_slot = ITEM_SLOT_LPOCKET
 	skillchips = list(/obj/item/skillchip/job/roboticist)

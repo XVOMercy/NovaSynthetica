@@ -468,7 +468,7 @@
 
 
 /datum/job/proc/get_captaincy_announcement(mob/living/captain)
-	return "Due to extreme staffing shortages, newly promoted Acting Captain [captain.real_name] on deck!"
+	return "NULL Site Master detected, [captain.real_name] will be temporarily given administator privileges."
 
 
 /// Returns an atom where the mob should spawn in.

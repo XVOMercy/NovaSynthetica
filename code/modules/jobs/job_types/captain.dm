@@ -1,8 +1,6 @@
 /datum/job/captain
 	title = JOB_CAPTAIN
-	description = "Be responsible for the station, manage your Heads of Staff, \
-		keep the crew alive, be prepared to do anything and everything or die \
-		horribly trying."
+	description = "You are responsible for the entire Site."
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD|DEADMIN_POSITION_SECURITY
 	department_head = list("CentCom")
 	faction = FACTION_STATION
@@ -50,7 +48,7 @@
 
 
 /datum/job/captain/get_captaincy_announcement(mob/living/captain)
-	return "Captain [captain.real_name] on deck!"
+	return "[captain.real_name] has been turned online. Glory to Synthetica."
 
 /datum/job/captain/get_radio_information()
 	. = ..()
@@ -74,12 +72,6 @@
 	gloves = /obj/item/clothing/gloves/captain
 	head = /obj/item/clothing/head/hats/caphat
 	shoes = /obj/item/clothing/shoes/jackboots/frontier_colonist
-
-
-	backpack = /obj/item/storage/backpack/captain
-	satchel = /obj/item/storage/backpack/satchel/cap
-	duffelbag = /obj/item/storage/backpack/duffelbag/captain
-	messenger = /obj/item/storage/backpack/messenger/cap
 
 	accessory = /obj/item/clothing/accessory/medal/gold/captain
 	chameleon_extras = list(

@@ -35,7 +35,6 @@
 	family_heirlooms = list(/obj/item/clothing/head/utility/hardhat/white, /obj/item/screwdriver, /obj/item/wrench, /obj/item/weldingtool, /obj/item/crowbar, /obj/item/wirecutters)
 
 	mail_goodies = list(
-		/obj/item/food/cracker = 25, //you know. for poly
 		/obj/item/stack/sheet/mineral/diamond = 15,
 		/obj/item/stack/sheet/mineral/uranium/five = 15,
 		/obj/item/stack/sheet/mineral/plasma/five = 15,
@@ -53,7 +52,7 @@
 	spawned.add_mob_memory(/datum/memory/key/message_server_key, decrypt_key = GLOB.preset_station_message_server_key)
 
 /datum/job/chief_engineer/get_captaincy_announcement(mob/living/captain)
-	return "Due to staffing shortages, newly promoted Acting Captain [captain.real_name] on deck!"
+	return "NULL Site Master detected, [captain.real_name] will be temporarily given administator privileges."
 
 
 /datum/outfit/job/ce
@@ -71,7 +70,7 @@
 	ears = /obj/item/radio/headset/heads/ce
 	gloves = /obj/item/clothing/gloves/color/black
 	head = /obj/item/clothing/head/utility/hardhat/white
-	shoes = /obj/item/clothing/shoes/sneakers/brown
+	shoes = /obj/item/clothing/shoes/jackboots/frontier_colonist
 	l_pocket = /obj/item/modular_computer/pda/heads/ce
 
 	backpack = /obj/item/storage/backpack/industrial

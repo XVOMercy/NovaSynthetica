@@ -44,10 +44,10 @@
 
 	id_trim = /datum/id_trim/job/station_engineer
 	uniform = /obj/item/clothing/under/rank/engineering/engineer/nova/utility
-	belt = /obj/item/storage/belt/utility/full/engi
+	belt = /obj/item/storage/belt/utility/full/synthetica
 	ears = /obj/item/radio/headset/headset_eng
 	head = /obj/item/clothing/head/utility/hardhat/red
-	shoes = /obj/item/clothing/shoes/workboots
+	shoes = /obj/item/clothing/shoes/jackboots/frontier_colonist
 	l_pocket = /obj/item/modular_computer/pda/engineering
 	r_pocket = /obj/item/t_scanner
 

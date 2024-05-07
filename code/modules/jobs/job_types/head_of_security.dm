@@ -40,7 +40,7 @@
 
 
 /datum/job/head_of_security/get_captaincy_announcement(mob/living/captain)
-	return "Due to staffing shortages, newly promoted Acting Captain [captain.real_name] on deck!"
+	return "NULL Site Master detected, [captain.real_name] will be temporarily given administator privileges."
 
 
 /datum/outfit/job/hos
@@ -60,14 +60,13 @@
 	glasses = /obj/item/clothing/glasses/hud/security/sunglasses
 	gloves = /obj/item/clothing/gloves/color/black/security //NOVA EDIT CHANGE - Original: /obj/item/clothing/gloves/color/black
 	head = /obj/item/clothing/head/hats/hos/beret
-	shoes = /obj/item/clothing/shoes/jackboots/sec
+	shoes = /obj/item/clothing/shoes/jackboots/frontier_colonist
 	l_pocket = /obj/item/restraints/handcuffs
 	r_pocket = /obj/item/assembly/flash/handheld
 
-	backpack = /obj/item/storage/backpack/security
-	satchel = /obj/item/storage/backpack/satchel/sec
-	duffelbag = /obj/item/storage/backpack/duffelbag/sec
-	messenger = /obj/item/storage/backpack/messenger/sec
+	backpack = /obj/item/storage/backpack/security/redsec
+	satchel = /obj/item/storage/backpack/satchel/sec/redsec
+	duffelbag = /obj/item/storage/backpack/duffelbag/sec/redsec
 
 	box = /obj/item/storage/box/survival/security
 	chameleon_extras = list(

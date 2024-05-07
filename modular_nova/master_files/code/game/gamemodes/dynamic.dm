@@ -33,7 +33,7 @@
 	<p style=\"color: grey; text-align: justify;\">This label certifies an Intern has reviewed the above before sending. This document is the property of Nanotrasen Corporation.</p>"
 
 	print_command_report(., "Synthetica High Command Status Summary", announce = FALSE)
-	priority_announce("Glory to Synthetica. An automated overseer has sent information regarding your console to optional goals for the shift, which has been sent to your communications console. Glory to Synthetica! ", "Divergency Report", SSstation.announcer.get_rand_report_sound())
+	priority_announce("Glory to Synthetica. An automated overseer has sent information regarding optional goals for the shift, which has been sent to your communications console. Glory to Synthetica! ", "Overseer-Assigned Goals", SSstation.announcer.get_rand_report_sound())
 
 /datum/controller/subsystem/dynamic
 	/// Desired median point for midrounds, plus or minus the midround_roll_distance.

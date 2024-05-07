@@ -5,7 +5,7 @@ Assistant
 */
 /datum/job/assistant
 	title = JOB_ASSISTANT
-	description = "Get your space legs, assist people, ask the HoP to give you a job."
+	description = "Visit the Synthetica Outpost, walk around, question what happened in Mining, assist where you see fit."
 	faction = FACTION_STATION
 	total_positions = 5
 	spawn_positions = 5

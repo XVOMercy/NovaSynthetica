@@ -141,6 +141,15 @@
 	new /obj/item/extinguisher/mini(src)
 	new /obj/item/stack/cable_coil(src)
 
+/obj/item/storage/belt/utility/full/synthetica/PopulateContents()
+	new /obj/item/weldingtool/electric/arc_welder(src)
+	new /obj/item/crowbar/large/doorforcer(src)
+	new /obj/item/wirecutters(src)
+	new /obj/item/multitool(src)
+	new /obj/item/wrench/bolter(src)
+	new /obj/item/screwdriver/omni_drill(src)
+	new /obj/item/stack/cable_coil(src)
+
 /obj/item/storage/belt/utility/full/powertools/rcd/PopulateContents()
 	new /obj/item/screwdriver/power(src)
 	new /obj/item/crowbar/power(src)
